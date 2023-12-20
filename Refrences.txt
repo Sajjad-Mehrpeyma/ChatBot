@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=ImzRs8eORsM&ab_channel=AppliedAICourse
+https://www.youtube.com/watch?v=jcJgCcgg24c&ab_channel=AppliedAICourse
+https://towardsdatascience.com/siamese-nn-recipes-with-keras-72f6a26deb64
+https://huggingface.co/learn/nlp-course/chapter7/7?fw=tf
+
+# preprocessing
+https://towardsdatascience.com/text-preprocessing-steps-and-universal-pipeline-94233cb6725a  

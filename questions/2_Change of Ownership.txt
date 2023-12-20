@@ -1,0 +1,174 @@
+What action should the seller take before changing SIM card ownership according to the text?
+What responsibility does the seller have if they fail to delete all information stored on the SIM card before delivering it to the buyer?
+What is the consequence if the original SIM card is not available for the process of SIM card ownership change?
+Why is it necessary for the original SIM card to be available for the ownership change process to take place?
+What happens if either the seller or buyer is not present at the chosen address to receive the SIM card during the ownership change process?
+What are the potential charges if the SIM card ownership change process is stopped due to the absence of the seller and buyer at the chosen address?
+What is the status of the SIM card after filing an online request for a change of ownership?
+How is the SIM card reactivated after the successful completion of the ownership change request?
+What does the text imply about the importance of the original SIM card in the ownership change process?
+What measures can be taken to avoid being held responsible for future SIM card misuses as a seller?
+How does the text describe the delivery and ID authentication process for the SIM card ownership change?
+What is the significance of the seller delivering the original SIM card to the buyer in the ownership change process?
+Why is it emphasized that the seller needs to delete all information stored on the SIM card before transferring ownership?
+What does the term "soft suspended" mean in the context of the SIM card ownership change process?
+Can the ownership change process proceed with a new SIM card, according to the text?
+What is the impact of the SIM card being soft suspended during the ownership change process?
+How does the text suggest avoiding charges for future SIM card deliveries during the ownership change process?
+What are the consequences if the SIM card ownership change process is not successfully completed?
+How does the text characterize the relationship between the availability of the original SIM card and the ownership change process?
+What steps should the seller and buyer take to ensure a successful SIM card ownership change process?
+What is the first step the seller (initial SIM card owner) needs to take before changing SIM card ownership?
+Why is it crucial for the seller to delete all information stored on the SIM card before delivering it to the buyer?
+What responsibility does the seller bear if they fail to delete information from the SIM card before transferring ownership?
+How does the delivery and ID authentication process work when changing SIM card ownership?
+Why is it necessary for the original SIM card to be available for the ownership change process to take place?
+What consequence does the text mention if either the seller or buyer is not present at the chosen address to receive the SIM card during the ownership change process?
+In the absence of the original SIM card, can ownership be changed with a new SIM card, according to the text?
+What happens if the SIM card ownership change process is interrupted due to the absence of the seller or buyer at the chosen address?
+What action is taken with the SIM card after filing an online request for a change of ownership?
+How is the SIM card affected during the period of soft suspension after a change of ownership request is filed?
+When will the SIM card be reactivated after the ownership change request is successfully completed?
+Are there any specific charges associated with the SIM card ownership change process, as mentioned in the text?
+What potential misuses of the SIM card in the future is the seller held responsible for if they do not delete the information before transferring ownership?
+Can the SIM card ownership change process proceed if both the seller and buyer are not present at the chosen address during the delivery process?
+What role does the availability of the original SIM card play in the successful completion of the ownership change process?
+What is the consequence of not having the original SIM card available during the SIM card ownership change process?
+How does the soft suspension of the SIM card impact its functionality during the ownership change process?
+What does the text suggest about the necessity of the original SIM card for successful ownership change with another, new SIM card?
+Is there any mention of specific conditions or requirements for filing an online request for a change of ownership?
+What measures are taken to ensure the security and proper completion of the SIM card ownership change process?
+
+
+User
+generate 200 questions from this text:
+
+Customer Obligations:
+
+Before purchasing any mobile modem, the Customer shall check Irancell network coverage in the intended area using the “coverage map” available on Irancell website.‌ Since maximum coverage is provided in all areas and mobile modems can be used in various parts, it is not possible to return a modem due to lack of coverage.
+
+In order to use Irancell services and products, the Customer shall accept the terms and conditions of the related service as well as the present terms and conditions.
+
+The Customer shall be responsible to enter accurate and correct identity information while purchasing a service or product. In case any inaccurate information is entered by the Customer, central authentication system will not be able to generate reference number; therefore, service registration and activation will not be possible and Irancell shall have no responsibility in this regard.
+
+The Customer shall pay the payable amount stated in Irancell Online Store via available online payment gateway.
+
+The Customer undertakes to prepare the required documents and provide them to the postman at the time of delivering the package. Otherwise, the postman may avoid delivering the package.
+
+The Customer undertakes to avoid receiving damaged packages from postman. Irancell shall not be responsible if, after receiving the package, the Customer finds out that it is damaged.
+
+The Customer undertakes to provide updated information and documents at the time of placing the order. In case any discrepancy is discovered at any stage, Irancell shall be entitled to avoid delivering the product or activating the service.‌‌‌
+
+The Customer shall provide the 10-digit postal code of its present domicile to be registered.‌ Please refer to your utility bills (fixed phone, water, electricity or gas) to get the accurate postal code of your place of residence. Please be careful while entering the postal code and other information since the information recorded in your file (in Irancell system) is the basis for providing you with all Irancell gifts and services.
+
+Irancell Obligations:
+
+Irancell undertakes to deliver to the Customer the purchased product or service within the specified period and in accordance with the terms and conditions referred to on Irancell Online Store website.‌
+
+Irancell shall post the purchased product to the address announced by the Customer.
+
+In the event that the Customer pays the price of a product or service the provision of which is found to be impossible later, Irancell shall refund the amount to the Customer.
+
+Purchase Cancellation:
+
+Customers who purchase their mobile modem via Irancell Online Stores may cancel their order within 7 business days after placing their order (prior to receiving the modem) and ask for a refund.‌‌ To ask for a refund, the purchaser (the person under whose name the SIM Card is registered) may contact Irancell Call Center by dialing 700 from Irancell lines or 09377000000 from other lines or may raise their request through online chat with Call Center agents.‌ (It’s better to cancel your purchase as soon as possible in order to avoid any payment or waste of time.)‌
+
+If you cancel your order (before receiving the mobile modem), the amount will be returned to your Irancell Online Store Wallet and then you will be able to transfer the amount to your bank account or purchase again.‌
+
+Please note that in case you wish to cancel your mobile modem purchase, you should not take delivery of the purchased product from the postman since the mobile modems delivered will not be subject to refund policy.
+
+Only the amounts paid using a bank card connected to a centralized account can be refunded. Payments made using a gift card or other similar cards are not refundable and Irancell undertakes no responsibility for returning the same.
+
+The Limit on Number of SIM Cards Owned by Customers:‌‌
+
+Please note that according to CRA instructions, it is only possible to register for and activate maximum ten (10) SIM Cards for each Iranian natural persons and three (3) SIM Cards for each non-Iranian natural person.‌
+
+If the SIM Card owner decides to transfer the ownership of the SIM Card to another person, they should follow all Irancell regulations in this regard.‌‌ All the responsibilities associated with the SIM Card shall lie with the SIM Card owner until the ownership of the SIM Card is legally transferred to another person.‌‌‌
+
+Regular Delivery:
+
+When the postman arrives, the person under whose name the SIM Card has been registered needs to hand over a valid identity document and a copy of the same for identification purposes.‌
+
+Valid identity documents for Iranian nationals shall include one of the following:
+
+Smart National ID Card
+
+New birth certificate containing a digital photo and National ID (a birth certificate lacking a photo shall not be valid) ‌‌
+
+Old National ID Card together with the smart National ID Card receipt (sealed by an ICT service center, electronic services counter, post office, or civil registry office/a certificate approved by civil registry office/a National ID certificate)‌
+
+A valid identity document for foreign nationals shall include one of the following:
+
+A valid passport, Amayesh card, identity card, green card or VIP residence permit for foreign nationals. Other documents such as visa shall not be acceptable.
+
+If the postman arrives at the announced address and the Subscriber is not present, the Subscriber may call Irancell Call Center by dialing 700 from Irancell lines or 09377000000 from other lines and ask for delivery of the product by the postman again.
+
+Express Delivery: If you choose express delivery to receive the product within your selected time period, you need to be present at the announced address; otherwise, the product will be sent through regular delivery within 7 days.
+ChatGPT
+What is the Customer's responsibility before purchasing a mobile modem from Irancell?
+How can the Customer check Irancell network coverage in the intended area?
+Why can't a mobile modem be returned due to lack of coverage?
+What must the Customer accept to use Irancell services and products?
+What happens if the Customer enters inaccurate identity information during the purchase?
+What is the consequence if inaccurate information is entered, and the central authentication system cannot generate a reference number?
+How is the payable amount stated in Irancell Online Store paid by the Customer?
+What documents does the Customer need to prepare and provide to the postman upon delivering the package?
+What does Irancell recommend the Customer avoid when receiving packages from the postman?
+What should the Customer do if they discover that a received package is damaged?
+What information and documents does the Customer need to provide at the time of placing an order?
+What can Irancell do if any discrepancy is discovered in the information or documents provided by the Customer?
+What does the Customer need to provide for registration during the purchase process?
+Where can the Customer find the accurate postal code of their place of residence?
+What is the basis for providing Irancell gifts and services to the Customer?
+What obligations does Irancell have regarding the delivery of purchased products or services to the Customer?
+How does Irancell deliver the purchased product to the Customer?
+What happens if Irancell is unable to provide a product or service after the Customer has paid for it?
+How long do customers have to cancel their order for a mobile modem purchased via Irancell Online Stores?
+How can customers request a refund for a canceled order?
+What happens if a customer cancels their order before receiving the mobile modem?
+Where is the refunded amount stored if a customer cancels their order before receiving the product?
+What can customers do with the refunded amount in their Irancell Online Store Wallet?
+Why should customers not take delivery of the purchased product if they wish to cancel their mobile modem purchase?
+Which payments made using a bank card connected to a centralized account can be refunded?
+What types of payments made using cards are not refundable, according to Irancell?
+What is the limit on the number of SIM cards that Iranian natural persons can register and activate?
+How many SIM cards can non-Iranian natural persons register and activate according to CRA instructions?
+What responsibilities lie with the SIM Card owner until ownership is legally transferred to another person?
+What should SIM Card owners follow if they decide to transfer ownership to another person?
+What documents does the person under whose name the SIM Card is registered need to provide during regular delivery?
+What are the valid identity documents for Iranian nationals during regular delivery?
+What is required for Iranian nationals who have an old National ID Card during regular delivery?
+What documents are considered valid identity documents for foreign nationals during regular delivery?
+Which documents are not acceptable as valid identity documents for foreign nationals during regular delivery?
+What should the Subscriber do if they are not present when the postman arrives for regular delivery?
+How can the Subscriber request delivery of the product again if they are not present during regular delivery?
+What is the requirement for the Customer to receive a product through express delivery within a selected time period?
+What happens if the Customer is not present at the announced address during express delivery?
+How long does it take for the product to be sent through regular delivery if the Customer is not present during express delivery?
+
+2 / 2
+
+User
+Before changing SIM card ownership, the seller (initial SIM card owner) should delete all the information stored on the SIM card and then deliver it to the buyer; otherwise, the seller will be held responsible for all possible SIM card misuses in the future.
+
+Note that when the delivery and ID authentication personnel are sent to the chosen address, the original seller SIM card will be delivered to the buyer. So, for the process of SIM card ownership change to take place, it is necessary that the original SIM card be available; otherwise, it’s not possible to change the ownership with another, new SIM card.
+
+If the seller and buyer or one of them are not present at the chosen address to receive the SIM card, the SIM card ownership change process will be stopped and they will be charged for future SIM card deliveries.
+
+After filing an online request for change of ownership, SIM card will be soft suspended and then reactivated once the request is successfully completed.
+ChatGPT
+What should the seller do before changing SIM card ownership?
+Why is the seller held responsible for SIM card misuses in the future if information is not deleted before transferring ownership?
+What must the seller do before delivering the SIM card to the buyer?
+Why is it necessary for the original SIM card to be available for the ownership change process?
+Is it possible to change SIM card ownership with a new SIM card?
+What happens if the seller or buyer is not present at the chosen address during the delivery and ID authentication process?
+What is the consequence of not having the original SIM card available for the ownership change process?
+What charges will be incurred if the seller and buyer are not present at the chosen address to receive the SIM card?
+What happens to the SIM card after filing an online request for a change of ownership?
+How is the SIM card affected during the ownership change process after filing an online request?
+What is the status of the SIM card during the ownership change process?
+When is the SIM card reactivated after filing an online request for a change of ownership?
+What does it mean for the SIM card to be "soft suspended" during the ownership change process?
+What is the purpose of soft suspending the SIM card during the ownership change process?
+How long does it take for the SIM card to be reactivated after the ownership change request is successfully completed?

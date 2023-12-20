@@ -1,0 +1,7 @@
+Before changing SIM card ownership, the seller (initial SIM card owner) should delete all the information stored on the SIM card and then deliver it to the buyer; otherwise, the seller will be held responsible for all possible SIM card misuses in the future.
+
+Note that when the delivery and ID authentication personnel are sent to the chosen address, the original seller SIM card will be delivered to the buyer. So, for the process of SIM card ownership change to take place, it is necessary that the original SIM card be available; otherwise, it’s not possible to change the ownership with another, new SIM card.
+
+If the seller and buyer or one of them are not present at the chosen address to receive the SIM card, the SIM card ownership change process will be stopped and they will be charged for future SIM card deliveries.
+
+After filing an online request for change of ownership, SIM card will be soft suspended and then reactivated once the request is successfully completed.

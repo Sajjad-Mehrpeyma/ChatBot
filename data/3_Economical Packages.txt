@@ -1,0 +1,15 @@
+Economical Package: the subscriber can use unlimited data considering the Fair Usage Policy.
+
+The Speed of Economical Packages: the subscriber can purchase packages with different speeds, including up to 512 Kbps, up to 1 Mbps, up to 2 Mbps, up to 4 Mbps, or up to 8Mbps.
+
+Fair Usage Policy: The subscriber can use a specific amount of traffic from the chosen package, varying based on the type of the package, and should the subscriber exceed that amount, the speed drops to 256 Kbps.
+
+No more than 1 economical package can be purchased simultaneously.
+
+Economical packages can be purchased by dialing the code *555# and using MyIrancell superapplication.
+
+When economical and limited data packages are purchased simultaneously, regardless of the packages’ expiry dates, the limited data package is used first and the economical data package is used afterwards.
+
+If two packages (one economical and one limited) are purchased simultaneously, they will be used as of the purchase date. Thus, the subscriber is responsible for purchasing several packages.
+
+If limited and economical packages are used at the same time, their speeds will be different. The limited package has unlimited speed, while the speed of the economical package varies from 512 Kbps to 8 Mbps depending on the package purchased.

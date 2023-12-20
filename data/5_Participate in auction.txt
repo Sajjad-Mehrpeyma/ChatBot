@@ -1,0 +1,79 @@
+The subscribers shall accept the following terms and conditions and undertake to comply with them in order to participate in Irancell auction for golden numbers:
+
+1. Definitions
+
+1.1 “Irancell”, means Irancell Telecommunications Services Company.
+
+1.2 “Auctioneer”, means Irancell Telecommunications Services Company.
+
+1.3 “Subscriber”, means any natural person who is granted the right to use the SIM Card and to establish connection via Irancell network upon registration and acceptance of Master Subscriber Agreement.
+
+1.4 “Bidder”, Either of Irancell prepaid or postpaid Subscribers who participate in the auction for one or more Golden Number(s) upon entering the auction portal and registering their bid.
+
+1.5 “Golden Number”, The SIM cards whose number is defined by Irancell supervisory committee based on the order of the digits and/or repetition of particular digits.
+
+1.6 “e-Auction”, A process through which the Subscribers may enter Irancell auction portal to submit their bid for purchasing one or several Golden SIM Cards. Then upon completion of the registration and payment process, the SIM Card will be transferred to the Bidder with the highest bid.
+
+1.7 “Auction Portal”, Irancell's portal at rond.irancell.ir through which applicants can enroll using their email address and personal password, and participate in the golden numbers auction.
+
+1.8 Close to Auction End: The last 24 hours before the end of an auction is called the Close to Auction End.
+
+1.9 Suggested Opening Bid: The minimum price determined by Irancell for allocation of a Golden Number. The price might differ from number to number.
+
+1.10 Earnest Money Deposit: An amount to be paid via Internet gateway available at Irancell portal by each Subscriber to the nominated account in order to enter each auction, hereinafter referred to as "Deposit".
+
+2. Participants General Conditions
+
+2.1 All Irancell natural persons may go to Irancell auction portal and pay the preset Deposit to participate in the auction and purchase the Golden Numbers.
+
+2.2 In order to be eligible to participate in the auction, it is a must for the participant to be qualified under the applicable law for performing transactions, ownership of the assets and financial rights and to have minimum age of 18 years. Applicants under 18 years old may participate in the auction through their guardian or legal custodian. This way the Golden Number will be registered to the name of the guardian or custodian and can be used by the applicant under the control of the guardian or custodian.
+
+3. Participation Terms:
+
+3.1 All subscribers may use their email address and password to enter their user account via the auction portal and complete the steps.
+
+3.2 To enter the auction, each Subscriber is required to pay at least 20 percent of the amount it wishes to bid for the auction. Such amount will be paid to the nominated account of the auctioneer via the Internet gateway available at Irancell portal. This amount will remain in the said account as Earnest Money Deposit until finalization of the auctions participated by the Subscriber.
+
+Note 1: If the Bidder is not among the 3 winners of the auction, the Earnest Money Deposit will be refunded to him/her within 4 working days as of the request for return of the same; otherwise such amount will not be accessible till determination of the final winner (completion of purchase process).
+
+Note 2: The deposit will be refunded solely after a request by the Bidder. To this end, the Bidder is required to enter the auction portal after completion of the auctions she/he has participated in, and in case the Bidder is not among the first 3 winners of the auction, the Bidder shall register its request by clicking the "Request on reimbursement to the bank account" by observing provisions under Note 1.
+
+Note 3: In case the Bidder participate in several auctions simultaneously and fail to be among the 3 top winners, the deposit made to the joint account will be returned to him if he clicks on “Request for reimbursement to the bank account”; otherwise, the request for reimbursement of the deposit will be postponed to the time when the winner of the auction(s) is finalized when the bidder is among one of the 3 top winners.
+
+Note 4: After a request for refund, all the amounts paid as earnest money deposit will be automatically returned to the IBAN defined by the bidder. Therefore, the Customer is required to make the payment using the account which is approved by him for refund. After making the payment, no claims in this respect will be acceptable nor any request for reimbursement of the deposit to an account other than the account from which the first payment is made.
+
+Note 5: Only the amounts paid using a bank card connected to a centralized account can be refunded. Payments made using a gift card or other similar cards are not refundable and Irancell undertakes no responsibility for returning the same.
+
+Note 6: The IBAN number requested in Portal shall be solely used for cases in which the system fails to refund the deposit automatically for any reason whatsoever. Therefore, the Bidder is required to pay utmost attention in submitting the IBAN number and full name; otherwise, Irancell undertakes no responsibility regarding the mentioned deposit.
+
+Note 7: After the end of each auction, the individual who has managed to record the highest bid will be announced as the winner and the succeeding two highest-bidders shall be selected as first and second runners-up. In fact these two people have respectively offered the highest bids following the bid proposed by the winner.
+
+Note 8: The auction winner as well as the first and second runners-up shall not transfer their SIM Cards to another individual unless the auction is ended and SIM Card is transferred or the auction is completely canceled.
+
+3.3 Each natural person is allowed to register and activate at most 10 Irancell SIM cards using one National ID number. To participate in the auction, the Subscribers must observe the limit set for SIM Cards ownership. In case the number of a subscriber’s SIM cards reaches the said limit, he can register the SIM card for another person to whom the SIM card will be delivered upon identification of the registered particulars; otherwise, the bidder is required to deactivate one of his SIM cards upon receiving its inactive SIM card. Then, he can refer to one of Irancell authorized dealers or service centers, having his identification documents, address and zip code to complete the registration process and activate its purchased SIM cards.
+
+Note 1: In case the subscriber wins several bids at the same time which makes its activated SIM cards together with the SIM cards for which he has granted the priority right to purchase exceeding the said limit, he can pay the full price of each SIM card and register them to the name of another person to whom the SIM card will be delivered upon identification; otherwise, the bidder shall deactivate one of its SIM cards upon receiving the SIM card won in the bid and then activate the aforesaid SIM card by referring to one of the authorized dealers or service centers, having his identification documents, address and zip code to complete the registration process and activate its purchased SIM cards.
+
+3.4 The winner has the right to choose prepaid or postpaid Golden numbers.
+
+3.5 Once the auction results are announced, the winner is required to pay the difference between his bid and the Deposit in the same auction within 48 hours through the Internet gateways available in the auction portal. If the winner fails to pay the amount within the determined deadline, his Deposit will be confiscated to the benefit of Irancell.
+
+Note 1: Once the winner pays the full amount and in case he has enough credit in its deposit, they may attend another auction or request the refund of their deposit.
+
+3.6 In case the winner refuses to pay the bid and to complete the registration process or is prevented to do so for any reasons whatsoever, the first runner up will be announced as the winner and is required to fully pay the bid within 48 hours. Should the first runner up fail to timely pay the bid, the second runner up will be selected as the winner and given the same time for payment of the bid. In case none of the winners pays the specified amount, the auction will be announced as null and void.
+
+3.7 The Bidders, except for the top three winners of the auction, may cancel their bid only before the Close to Auction End time. During the “Close to Auction End” time, the Bidders are not allowed to cancel their bid anymore and in case of winning the auction they are responsible for payment of the bid.
+
+3.8 The Bidder shall pay the taxes, duties and the like as per the applicable rules and regulations.
+
+After completion of all steps of the auction, payment of the bid and determination of the type of the Number (post-paid or pre-paid), the Golden Number will either be registered under the name of the winner, or will be issued in an inactive form and will be posted to the postal address announced by the Bidder during the registration step free of any post charges. The auctioned SIM Card is activated and delivered to the winner only upon establishing identity, filling out registration form signed by the winner and receiving a copy of winner's ID documents (National Card or ID Card for Iranian nationals and passport for foreign nationals) in case of registration; otherwise, the SIM delivery to the bidder will be made with the address registered in the Registration Form of the bidder so that the bidder can refer to one of Irancell authorized dealers or service centers for completion of the registration and activation of the purchased SIM card.
+
+Note 1: Upon the first sign in, the system asks the bidder to complete its individual information. In case the bidder wins the auction, the SIM Card will be delivered to the above mentioned address. Therefore, the bidder must provide accurate information. Should any problem arise as a result of providing incorrect information, Irancell shall not be responsible for the missing SIM card.
+
+4. Governing Law
+
+All terms and conditions of participating in the e-auction for Irancell Golden Numbers and probable claims are subject to the laws and regulations of the Islamic Republic of Iran. Since the Subscribers are allowed to participate in the golden number auction using their own SIM Card number, it is necessary to observe the terms and conditions of Master Subscriber Agreement and CRC Resolutions.
+
+The Subscriber accepts all terms and conditions of participating in the auction under the present document and waives the right to make any claims or objections in this regard.
+
+I hereby undertake that the amount paid into Irancell account is only for purchasing the SIM Card and not for any other transactions. Evidently, in case it is approved that the said amount does not belong to the Customer or that any unauthorized banking transactions are made, the Customer shall be personally responsible for all the possible consequences before the judicial/non-judicial competent authorities.

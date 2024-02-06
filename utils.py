@@ -51,6 +51,15 @@ def load_Text(paths):
 
     return texts_dataset
 
+def load_GloveEmbedding(path):
+    embeddings_index = {}
+    with open(path) as f:
+        for line in f:
+            word, coefs = line.split(maxsplit=1)
+            coefs = np.fromstring(coefs, "f", sep=" ")
+            embeddings_index[word] = coefs
+    return embeddings_index
+
 
 def modelLoader():
     model_checkpoint = "bert-base-cased"

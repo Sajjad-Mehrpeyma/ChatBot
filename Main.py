@@ -2,11 +2,11 @@ import streamlit as st
 import time
 from utils import QA
 
+
 def UI():
-    st.title("SajBot")
+    st.title("ChatBot")
     if "messages" not in st.session_state:
         st.session_state.messages = []
-    # st.session_state.messages = []
 
     if prompt := st.chat_input("Hi! Ask your question 8)"):
         # appending user question to show list
@@ -30,12 +30,14 @@ def UI():
 
         for chunk in assistant_response.split():
             full_response += chunk + " "
-            time.sleep(0.05)  
+            time.sleep(0.05)
             message_placeholder.markdown(full_response + "▌")
         message_placeholder.markdown(full_response)
-    
-    # appending Bot answer to show list
-    st.session_state.messages.append({"role": "assistant", "content": full_response})
 
-if __name__ =='__main__':
+    # appending Bot answer to show list
+    st.session_state.messages.append(
+        {"role": "assistant", "content": full_response})
+
+
+if __name__ == '__main__':
     UI()

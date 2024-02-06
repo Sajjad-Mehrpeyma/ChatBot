@@ -2,6 +2,7 @@ import streamlit as st
 import time
 from utils import QA
 
+
 def UI():
     st.title("ChatBot")
     if "messages" not in st.session_state:
@@ -21,17 +22,18 @@ def UI():
     with st.chat_message("assistant"):
         message_placeholder = st.empty()
         full_response = ""
-        try:
-            prompt = st.session_state.messages[-1][['content']]
-        except:
-            prompt = 'What does the customer need to provide at the time of placing an order?'
-        assistant_response = QA(prompt)
-        print(assistant_response)
 
-        for chunk in assistant_response.split():
+        prompt = st.session_state.messages[-1][['content']]
+
+        assistant_response = QA()
+        answer = assistant_response[0]
+        confidence = assistant_response[1]
+
+        for chunk in answer.split():
             full_response += chunk + " "
             time.sleep(0.05)
             message_placeholder.markdown(full_response + "▌")
+        full_response += f"\nConfidence: {confidence}"
         message_placeholder.markdown(full_response)
 
     # appending Bot answer to show list

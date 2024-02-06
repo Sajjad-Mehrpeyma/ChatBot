@@ -10,6 +10,13 @@ import pandas as pd
 import numpy as np
 import en_core_web_sm
 
+from keras.layers import LSTM, Dense, Dropout, Input, Embedding, Bidirectional, Lambda
+from keras import Model
+from keras import backend as K
+from keras.utils import to_categorical
+from sklearn.model_selection import train_test_split
+import spacy
+
 
 def preProcessing(doc):
     nlp = en_core_web_sm.load()
@@ -79,6 +86,68 @@ def make_EmbeddingMatrix(word2idx, word2vec, num_tokens, embedding_dim):
 
     return embedding_matrix, hits, misses
 
+def l1_norm(x): 
+    return 1 - K.abs(x[0] - x[1])
+
+def LSTM_SiameseNet(MAX_LEN, num_tokens, embedding_dim, embedding_matrix, units_count=256):
+    first_sent_in = Input(shape=(MAX_LEN, ))
+    second_sent_in = Input(shape=(MAX_LEN, ))
+    
+    embedding_layer = Embedding(input_dim=num_tokens,
+                                output_dim=embedding_dim,
+                                input_length=MAX_LEN,
+                                trainable=True,
+                                mask_zero=True)
+
+    embedding_layer.build((1,))
+    embedding_layer.set_weights([embedding_matrix])
+
+    first_sent_embedding = embedding_layer(first_sent_in)
+    second_sent_embedding = embedding_layer(second_sent_in)
+
+    lstm = Bidirectional(LSTM(units=units_count,
+                          return_sequences=False))
+
+    first_sent_encoded = lstm(first_sent_embedding)
+    second_sent_encoded = lstm(second_sent_embedding)
+    
+    merged = Lambda(function=l1_norm,
+                output_shape=lambda x: x[0],
+                name='L1_distance')([first_sent_encoded, second_sent_encoded])
+    
+    predictions = Dense(1, activation='sigmoid',
+                    name='classification_layer')(merged)
+
+    model = Model([first_sent_in, second_sent_in], predictions)
+    return model
+
+def SiameseNet(MAX_LEN, LSTM_SiameseNet, dense_units=32, class_count=9, dropout=0.2):
+    # Fully Connected DenseLayers
+    dense1 = Dense(dense_units, activation='tanh', name='dense1')
+    dense2 = Dense(dense_units, activation='tanh', name='dense2')
+    classifier = Dense(class_count, activation='softmax', name='classifier_layer')
+
+    # Embeddings
+    embedding_layer = LSTM_SiameseNet.layers[2]
+    embedding_layer.trainable = False
+
+    # LSTM    
+    lstm = LSTM_SiameseNet.layers[3]  # bidirectional lstm
+    lstm.trainable = False
+    
+    # input must be tokenized
+    # Combining Model parts Together
+    siamese_net = tf.keras.models.Sequential()
+    siamese_net.add(Input(shape=(MAX_LEN, )))
+    siamese_net.add(embedding_layer)
+    siamese_net.add(lstm)
+    siamese_net.add(dense1)
+    siamese_net.add(Dropout(dropout))
+    siamese_net.add(dense2)
+    siamese_net.add(Dropout(dropout))
+    siamese_net.add(classifier)
+
+    return siamese_net
 
 def modelLoader():
     model_checkpoint = "bert-base-cased"

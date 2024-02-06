@@ -51,6 +51,7 @@ def load_Text(paths):
 
     return texts_dataset
 
+
 def load_GloveEmbedding(path):
     embeddings_index = {}
     with open(path) as f:
@@ -59,6 +60,24 @@ def load_GloveEmbedding(path):
             coefs = np.fromstring(coefs, "f", sep=" ")
             embeddings_index[word] = coefs
     return embeddings_index
+
+
+def make_EmbeddingMatrix(word2idx, word2vec, num_tokens, embedding_dim):
+    embedding_matrix = np.zeros((num_tokens, embedding_dim))
+    hits = 0
+    misses = 0
+
+    for word, i in word2idx.items():
+        embedding_vector = word2vec.get(word)
+        if embedding_vector is not None:
+            # Words not found in embedding index will be all-zeros.
+            # This includes the representation for "padding" and "OOV"
+            embedding_matrix[i] = embedding_vector
+            hits += 1
+        else:
+            misses += 1
+
+    return embedding_matrix, hits, misses
 
 
 def modelLoader():

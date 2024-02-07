@@ -1,2 +1,3 @@
 import os
-os.system('streamlit run UI.py')
+# os.system('conda activate TensorFlow_GPU')
+os.system('streamlit run Hello.py')

@@ -337,7 +337,11 @@ def make_candidates(corpus):
     candidates = []
     for text in corpus:
         page_candidates = []
-        tfidf.fit([text])
+        try:
+            tfidf.fit([text])
+        except:
+            candidates.append([])
+            continue
         ngrams = tfidf.get_feature_names_out()
         for ngram in ngrams:
             if not ngram.replace(" ", "").isdigit():
@@ -360,24 +364,26 @@ def extract_NE(corpus):
         tmp_entities = []
         for entity in NE_set.ents:
             entity_text = entity.text
-            if entity.label_ not in ['CARDINAL', 'PERCENT', 'LAW', 'PERSON'] and len(entity_text) > 3 and len(entity_text.split()) < 5:
-                # print(entity_text , entity.label_)
+            if entity.label_ in ['PERSON', 'LOCATION', 'ORG', 'FACILITY', 'PRODUCT', 'LANGUAGE', 'WORK_OF_ART', 'EVENT'] and len(entity_text) > 3 and len(entity_text.split()) < 5:
+                print(entity_text, entity.label_)
                 tmp_entities.append(entity_text)
         NE.append(tmp_entities)
     return NE
 
 
-def make_feature_score(features, tfidf_scores, candidates):
+def make_feature_score(features, tfidf_scores, candidates, pages):
     feature_score = candidate_score(
-        features, tfidf_scores, candidates, page_count=13)
+        features, tfidf_scores, candidates, page_count=pages)
     return feature_score
 
 
 def extract(corpus, count=5):
+    pages = len(corpus)
     candidates = make_candidates(corpus)
     features, tfidf_scores, tfidf_model = features_scores_tfidfmodel(corpus)
     phrase2score = make_phrase2score(tfidf_scores, tfidf_model)
-    feature_score = make_feature_score(features, tfidf_scores, candidates)
+    feature_score = make_feature_score(
+        features, tfidf_scores, candidates, pages)
     NE = extract_NE(corpus)
 
     preds = predict_with_threshold(feature_score, candidates, phrase2score, NE,

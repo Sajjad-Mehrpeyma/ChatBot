@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-from utils import QA
+from QA_utils import QA
 
 
 def UI():
@@ -8,15 +8,18 @@ def UI():
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
+    for message in st.session_state.messages:
+        role = message["role"]
+        with st.chat_message(role):
+            st.markdown(message["content"])
 
     if prompt := st.chat_input("Hi! Ask your question 8)"):
         # appending user question to show list
         st.session_state.messages.append({"role": "user", "content": prompt})
         # showing user questions and Bot answers
-        for message in st.session_state.messages:
-            role = message["role"]
-            with st.chat_message(role):
-                st.markdown(message["content"])
+
+        with st.chat_message('user'):
+            st.markdown(prompt)
 
         with st.chat_message("assistant"):
             full_response = ""

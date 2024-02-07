@@ -37,12 +37,12 @@ def highlight_pdf():
 
         keyPhrases = extract(corpus)
 
-        st.write(keyPhrases)
+        # st.write(keyPhrases)
 
         with open(r'pdfs\file_modified.pdf', "wb") as f:
-            print('writing started')
+            # print('writing started')
             f.write((uploaded_file).getbuffer())
-            print('writing ended')
+            # print('writing ended')
 
         pdf = PdfDocument()
         pdf.LoadFromFile(r'pdfs\file_modified.pdf')

@@ -3,7 +3,7 @@ from pdfExtractor import extract_text
 from KeyPhraseExtractor import extract
 from spire.pdf import *
 from spire.pdf.common import *
-import os
+# import os
 
 
 def highlight(pdf, file_keyPhrases):
@@ -35,12 +35,8 @@ def highlight_pdf():
 
         keyPhrases = extract(corpus)
 
-        # st.write(keyPhrases)
-
         with open(r'pdfs\file_modified.pdf', "wb") as f:
-            # print('writing started')
             f.write((uploaded_file).getbuffer())
-            # print('writing ended')
 
         pdf = PdfDocument()
         pdf.LoadFromFile(r'pdfs\file_modified.pdf')
@@ -53,6 +49,10 @@ def highlight_pdf():
 
 
 if __name__ == '__main__':
+    st.set_page_config(
+        page_title="KeyPhrase Extraction",
+        page_icon="1️⃣",
+    )
     success = highlight_pdf()
     if success:
         success_message = "File Saved"

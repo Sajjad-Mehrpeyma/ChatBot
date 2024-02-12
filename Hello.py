@@ -1,8 +1,12 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Hello",
+    page_icon="👋",
+)
+
 
 def intro():
-    # import streamlit as st
 
     st.write("# Welcome to my ChatBot! 👋")
     st.sidebar.success("Select a task above.")

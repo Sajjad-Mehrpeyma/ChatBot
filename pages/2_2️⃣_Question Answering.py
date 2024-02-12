@@ -22,6 +22,8 @@ def UI():
             st.markdown(prompt)
 
         with st.chat_message("assistant"):
+            st.session_state.messages.append(
+                {"role": "assistant", "content": ""})
             full_response = ""
 
             assistant_response = QA(prompt)
@@ -37,9 +39,14 @@ def UI():
             message_placeholder.markdown(full_response)
 
         # appending Bot answer to show list
+        st.session_state.messages = st.session_state.messages[:-1]
         st.session_state.messages.append(
             {"role": "assistant", "content": full_response})
 
 
 if __name__ == '__main__':
+    st.set_page_config(
+        page_title="Question Answering",
+        page_icon="2️⃣",
+    )
     UI()

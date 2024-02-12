@@ -365,7 +365,7 @@ def extract_NE(corpus):
         for entity in NE_set.ents:
             entity_text = entity.text
             if entity.label_ in ['PERSON', 'LOCATION', 'ORG', 'FACILITY', 'PRODUCT', 'LANGUAGE', 'WORK_OF_ART', 'EVENT'] and len(entity_text) > 3 and len(entity_text.split()) < 5:
-                print(entity_text, entity.label_)
+                # print(entity_text, entity.label_)
                 tmp_entities.append(entity_text)
         NE.append(tmp_entities)
     return NE

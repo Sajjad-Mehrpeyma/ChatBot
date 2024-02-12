@@ -1,6 +1,4 @@
 import streamlit as st
-# import pandas as pd
-# from io import StringIO
 from pdfExtractor import extract_text
 from KeyPhraseExtractor import extract
 from spire.pdf import *
@@ -48,10 +46,14 @@ def highlight_pdf():
         pdf.LoadFromFile(r'pdfs\file_modified.pdf')
 
         highlight(pdf, keyPhrases)
-        st.success("File Saved")
         uploaded_file.close()
         pdf.Close()
+        success = True
+        return success
 
 
 if __name__ == '__main__':
-    highlight_pdf()
+    success = highlight_pdf()
+    if success:
+        success_message = "File Saved"
+        st.success(success_message)

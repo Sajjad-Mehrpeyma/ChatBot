@@ -3,7 +3,6 @@ from pdfExtractor import extract_text
 from KeyPhraseExtractor import extract
 from spire.pdf import *
 from spire.pdf.common import *
-# import os
 
 
 def highlight(pdf, file_keyPhrases):

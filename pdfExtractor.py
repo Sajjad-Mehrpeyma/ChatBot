@@ -72,33 +72,6 @@ def extract_text(file, close_file=False):
                     # Omit the text that appeared in a table
                     pass
 
-            # # Check the elements for tables
-            # if isinstance(element, LTRect):
-            #     # If the first rectangular element
-            #     if first_element == True and (table_num+1) <= len(tables):
-            #         # Find the bounding box of the table
-            #         lower_side = page.bbox[3] - tables[table_num].bbox[3]
-            #         upper_side = element.y1
-            #         # Extract the information from the table
-            #         table = extract_table(file, pagenum, table_num)
-            #         # Convert the table information in structured string format
-            #         table_string = table_converter(table)
-            #         # Append the table string into a list
-            #         text_from_tables.append(table_string)
-            #         # Set the flag as True to avoid the content again
-            #         table_extraction_flag = True
-            #         # Make it another element
-            #         first_element = False
-            #         page_text.append('--TABLE--')
-
-            #     # Check if we already extracted the tables from the page
-            #     if element.y0 >= lower_side and element.y1 <= upper_side:
-            #         pass
-            #     elif not isinstance(page_elements[i+1][1], LTRect):
-            #         table_extraction_flag = False
-            #         first_element = True
-            #         table_num += 1
-
         text_per_page[pagenum] = [page_text, text_from_tables]
 
     if close_file:

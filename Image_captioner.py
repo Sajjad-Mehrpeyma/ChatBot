@@ -1,12 +1,8 @@
 import numpy as np
 import tensorflow as tf
-from math import sqrt
 import pickle
 
 MAX_LENGTH = 40
-VOCABULARY_SIZE = 15000
-BATCH_SIZE = 64
-BUFFER_SIZE = 1000
 
 
 def load_tokenizer(path=None):
@@ -91,7 +87,6 @@ class Embeddings(tf.keras.layers.Layer):
         return token_embeddings + position_embeddings
 
 
-# -------------------------------------------
 class TransformerDecoderLayer(tf.keras.layers.Layer):
 
     def __init__(self, embed_dim, units, num_heads, caption_model_tokenizer):
@@ -291,9 +286,6 @@ def model_instance(tokenizer_path=None, checkpoint=None):
 
 
 def load_image_from_path(img):
-    # img = tf.io.read_file(img_path)
-    # img = tf.io.decode_jpeg(img, channels=3)
-    # img = tf.keras.layers.Resizing(299, 299)(img)
     img = tf.keras.applications.inception_v3.preprocess_input(img)
 
     return img
@@ -303,7 +295,7 @@ def generate_caption(caption_model, tokenizer, idx2word, img):
     img = tf.expand_dims(img, axis=0)
     img_embed = caption_model.cnn_model(img)
     img_encoded = caption_model.encoder(img_embed, training=False)
-    
+
     y_inp = '[start]'
     for i in range(MAX_LENGTH-1):
         tokenized = tokenizer([y_inp])[:, :-1]
@@ -317,7 +309,6 @@ def generate_caption(caption_model, tokenizer, idx2word, img):
         pred_word = idx2word(pred_idx).numpy().decode('utf-8')
         if pred_word == '[end]':
             break
-        # print(pred_idx)
 
         y_inp += ' ' + pred_word
 

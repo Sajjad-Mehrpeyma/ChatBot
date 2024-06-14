@@ -1,7 +1,6 @@
 from Image_captioner import *
 import streamlit as st
 from PIL import Image
-import pandas as pd
 
 model, tokenizer, idx2word = model_instance()
 
